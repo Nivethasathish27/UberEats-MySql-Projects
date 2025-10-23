@@ -13,6 +13,13 @@ It identifies the most frequently ordered restaurants and assigns ratings accord
 - Data Analysis using MySQL
 
 
+## 🗂️ Database Structure
+### Tables:
+1. **Restaurants**
+2. **Customers**
+3. **Orders**
+
+
 ## 💡 Key Query
 ```sql
 select b.RestaurantName,
@@ -29,4 +36,5 @@ Restaurant Name           Popularity          Rating
  Spicy Delight                      4                          5      
  Green Veggies                    2                          1      
  Burger King                       1                          1     
+
 
